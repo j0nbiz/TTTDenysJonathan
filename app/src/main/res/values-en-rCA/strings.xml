@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TTTDenysJonathan</string>
+	<string name="zeroButton">Zero</string>
+	<string name="resetButton">Reset</string>
+	<string name="aboutButton">About</string>
+	<string name="scoresButton">Scores</string>
+	<string name="oneplayer">Single Player</string>
+	<string name="multiplayer">Two Players</string>
+	<string name="abouthead">About game</string>
+	<string name="about">This is an application created by Denys and Jonathan.
+                Please select the mode and start playing by clicking on grids</string>
+</resources>

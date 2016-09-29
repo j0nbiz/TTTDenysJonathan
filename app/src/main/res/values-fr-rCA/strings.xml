@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TTTDenysJonathan</string>
+	<string name="zeroButton">Zero</string>
+	<string name="resetButton">Réinitialiser</string>
+	<string name="aboutButton">A propos</string>
+	<string name="scoresButton">Scores</string>
+	<string name="oneplayer">Seule joueur</string>
+	<string name="multiplayer">Deux jouers</string>
+	<string name="abouthead">A propos de jeu</string>
+	<string name="about">C\'est un logiciel creé par Denys et Jonathan.
+                Selectionnez la mode de jeu et commencez à jouer en clicquant sur les grilles</string>
+</resources>
