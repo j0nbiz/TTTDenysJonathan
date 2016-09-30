@@ -1,12 +1,20 @@
 <resources>
     <string name="app_name">TTTDenysJonathan</string>
-	<string name="zeroButton">Zero</string>
-	<string name="resetButton">Reset</string>
-	<string name="aboutButton">About</string>
-	<string name="scoresButton">Scores</string>
-	<string name="oneplayer">Single Player</string>
-	<string name="multiplayer">Two Players</string>
-	<string name="abouthead">About game</string>
+    <string name="zeroButton">Zero</string>
+    <string name="resetButton">Reset</string>
+    <string name="aboutButton">About</string>
+    <string name="scoresButton">Scores</string>
+    <string name="oneplayer">Single Player</string>
+    <string name="multiplayer">Two Players</string>
+    <string name="abouthead">About game</string>
 	<string name="about">This is an application created by Denys and Jonathan.
                 Please select the mode and start playing by clicking on grids</string>
+    <string name="score_header">Score</string>
+    <string name="score_scoreX_header">X wins</string>
+    <string name="score_scoreO_header">O wins</string>
+    <string name="score_scoreT_header">Ties</string>
+    <string name="score_scoreX_num">0</string>
+    <string name="score_scoreO_num">0</string>
+    <string name="score_scoreT_num">0</string>
+    <string name="score_return">Return</string>
 </resources>

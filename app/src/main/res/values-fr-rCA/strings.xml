@@ -9,4 +9,11 @@
 	<string name="abouthead">A propos de jeu</string>
 	<string name="about">C\'est un logiciel creé par Denys et Jonathan.
                 Selectionnez la mode de jeu et commencez à jouer en clicquant sur les grilles</string>
+	<string name="score_lbl_header">Score</string>
+	<string name="score_scoreX_header">X</string>
+	<string name="score_lbl_scoreY_header">O</string>
+	<string name="score_tie_header">Tie</string>
+	<string name="score_scoreX_win">0 wins</string>
+	<string name="score_scoreO_loss">0 losses</string>
+	<string name="score_return" />
 </resources>

@@ -1,224 +1,195 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.pish.tttdenysjonathan.MainActivity"
+    tools:context="five.team.tttdenysjonathan.TicTacToe"
+    android:orientation="vertical"
     android:background="@color/bluegray">
 
     <TableLayout
-        android:id="@+id/gameGrid"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="0dp"
-        android:layout_weight="3">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="2"
             android:gravity="center">
 
             <ImageButton
-                android:id="@+id/square11"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:id="@+id/btn_1_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="0"
                 android:layout_column="1"
                 android:src="@drawable/emptysquare"
-                android:onClick="tttOnClick"/>
+                android:onClick="onClick"/>
 
             <ImageButton
-                android:id="@+id/square12"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:id="@+id/btn_1_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="0"
                 android:layout_column="2"
                 android:src="@drawable/emptysquare"
-                android:onClick="tttOnClick"/>
+                android:onClick="onClick"/>
 
             <ImageButton
-                android:id="@+id/square13"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:id="@+id/btn_1_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="0"
                 android:layout_column="3"
                 android:src="@drawable/emptysquare"
-                android:onClick="tttOnClick"/>
+                android:onClick="onClick"/>
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0"
             android:gravity="center">
 
             <ImageButton
-                android:id="@+id/square21"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:id="@+id/btn_2_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_column="1"
                 android:layout_weight="0"
                 android:layout_centerVertical="true"
                 android:layout_centerHorizontal="true"
                 android:src="@drawable/emptysquare"
-                android:onClick="tttOnClick"/>
+                android:onClick="onClick"/>
 
             <ImageButton
-                android:id="@+id/square22"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:id="@+id/btn_2_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_column="2"
                 android:layout_weight="0"
                 android:layout_centerVertical="true"
                 android:layout_centerHorizontal="true"
                 android:src="@drawable/emptysquare"
-                android:onClick="tttOnClick"/>
+                android:onClick="onClick"/>
 
             <ImageButton
-                android:id="@+id/square23"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:id="@+id/btn_2_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_column="3"
                 android:layout_weight="0"
                 android:layout_centerVertical="true"
                 android:layout_centerHorizontal="true"
                 android:src="@drawable/emptysquare"
-                android:onClick="tttOnClick"/>
+                android:onClick="onClick"/>
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="2"
             android:gravity="center">
 
             <ImageButton
-                android:id="@+id/square31"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:id="@+id/btn_3_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_column="1"
                 android:layout_weight="0"
                 android:layout_centerVertical="true"
                 android:layout_centerHorizontal="true"
                 android:src="@drawable/emptysquare"
-                android:onClick="tttOnClick"/>
+                android:onClick="onClick"/>
 
             <ImageButton
-                android:id="@+id/square32"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:id="@+id/btn_3_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_column="2"
                 android:layout_weight="0"
                 android:layout_centerVertical="true"
                 android:layout_centerHorizontal="true"
                 android:src="@drawable/emptysquare"
-                android:onClick="tttOnClick"/>
+                android:onClick="onClick"/>
 
             <ImageButton
-                android:id="@+id/square33"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:id="@+id/btn_3_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_column="3"
                 android:layout_weight="0"
                 android:layout_centerVertical="true"
                 android:layout_centerHorizontal="true"
                 android:src="@drawable/emptysquare"
-                android:onClick="tttOnClick"/>
+                android:onClick="onClick"/>
         </TableRow>
     </TableLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:orientation="vertical">
+        android:orientation="horizontal">
 
         <Button
-            android:id="@+id/playBtn"
+            android:id="@+id/btn_zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_weight="1"
             android:text="@string/zeroButton"
-            android:layout_margin="5dp"
             android:background="@color/orange"
-            android:onClick="zeroAll"
-            />
+            android:onClick="zeroAll" />
 
         <Button
-            android:id="@+id/resetBtn"
+            android:id="@+id/btn_reset"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_weight="1"
             android:text="@string/resetButton"
-            android:layout_margin="5dp"
             android:background="@color/orange"
             android:onClick="resetGame"
-            />
-
+            android:layout_weight="1" />
         <Button
-            android:id="@+id/oneplayer"
+            android:id="@+id/btn_about"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_weight="1"
-            android:text="@string/oneplayer"
-            android:layout_margin="5dp"
-            android:onClick="startGame"
-            />
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:orientation="vertical">
-
-
-
-        <Button
-            android:id="@+id/aboutBtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_weight="1"
             android:text="@string/aboutButton"
-            android:layout_margin="5dp"
             android:background="@color/orange"
             android:onClick="showAbout"
-            />
+            android:layout_weight="1" />
         <Button
-            android:id="@+id/exitBtn"
+            android:id="@+id/btn_score"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_weight="1"
             android:text="@string/scoresButton"
-            android:layout_margin="5dp"
             android:background="@color/orange"
-            android:onClick="exitGame"
-            />
+            android:onClick="showScore"
+            android:layout_weight="1" />
 
-        <Button
-            android:id="@+id/multiplayer"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_weight="1"
-            android:text="@string/multiplayer"
-            android:layout_margin="5dp"
-            android:onClick="startGame"
-            />
     </LinearLayout>
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center|bottom" >
+        >
 
+        <Button
+            android:id="@+id/btn_startai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/oneplayer"
+            android:onClick="startAI"
+            android:background="@color/orange"
+            android:layout_alignParentLeft="true" />
+
+        <Button
+            android:id="@+id/btn_starthuman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/multiplayer"
+            android:onClick="startHuman"
+            android:background="@color/orange"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
 </LinearLayout>

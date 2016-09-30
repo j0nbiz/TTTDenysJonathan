@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="score_lbl_header">Score</string>
+    <string name="score_scoreX_header">X</string>
+    <string name="score_lbl_scoreY_header">O</string>
+    <string name="score_tie_header">Tie</string>
+    <string name="score_scoreX_win">0 wins</string>
+    <string name="score_scoreO_loss">0 losses</string>
+    <string name="score_return" />
+</resources>
